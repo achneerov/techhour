@@ -13,6 +13,9 @@ function setup() {
 }
 
 
+function fetchMessages() {
+    //TODO call GET request once API endpt is developed to fetch recent live chat messages
+}
 
 function btnSendMessageHandler(e) {
 
