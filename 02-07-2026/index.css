@@ -1,0 +1,47 @@
+:root {
+    --color-bg: rgb(208, 231, 208);
+    --color-bg2: rgb(155, 208, 155);
+    --color-accent: rgb(217, 0, 255);
+    --color-text: rgb(15, 2, 17);
+    --color-text2:rgb(80, 80, 80);
+}
+
+html, body {
+    background-color: var(--color-bg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    padding: 1em;
+}
+
+.message-item {
+    background-color: var(--color-bg);
+    margin: 0.5rem;
+}
+
+.message-datetime {
+    color: var(--color-text2);
+    text-decoration: underline;
+
+}
+
+.message-text {
+    color: var(--color-text);
+}
+
+section {
+    background-color: var(--color-bg2);
+}
+
+.chat-input {
+    resize: none;
+    width: 300px;
+    height: 50px;
+    background-color: var(--color-bg);
+    border: black;
+}
+
+button {
+    background-color: var(--color-accent);
+}
