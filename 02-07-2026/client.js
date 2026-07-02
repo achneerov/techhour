@@ -9,14 +9,19 @@ function setup() {
     console.log("frontend setup")
 
 
-
-    document.querySelector(".fetch").addEventListener("click", saySomething)
+    document.querySelector(".form-send-message").addEventListener("submit", btnSendMessageHandler)
 }
 
 
-function saySomething() {
-    console.log("Will fetch eventually")
-}
 
+function btnSendMessageHandler(e) {
+
+    e.preventDefault()
+    //TODO make a POST request once API endpoint is established
+    const textarea = document.querySelector(".chat-input")
+
+    console.log(textarea.value)
+
+}
 
 
